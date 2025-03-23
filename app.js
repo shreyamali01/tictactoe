@@ -29,7 +29,7 @@ boxes.forEach((box) => {
     }
     box.disabled = true;
 
-    if (checkWinner()) return;
+    checkWinner();
     checkTie();
   });
 });
